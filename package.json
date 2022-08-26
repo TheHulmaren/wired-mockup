@@ -1,0 +1,12 @@
+{
+  "name": "my-wired",
+  "version": "1.0.0",
+  "description": "wired",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tw": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "author": "Gyumin Lee",
+  "license": "ISC"
+}
